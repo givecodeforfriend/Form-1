@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Codekit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-logo">Codekit</div>
+        <div class="header-list">
+            <ul>
+                <li>About</li>
+                <li>Lessons</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="copy-container">
+            <h1>HELLO WORLD<span>.</span></h1>
+            <h2>Let's learn to code</h2>
+        </div>
+
+        <div class="contents">
+            <h3 class="section-title">Lessons</h3>
+            <div class="contents-item">
+                <img src="https://codekit.co/editor/v3/codekit/courses/basic-html-css/4-contents-forms/project/htmlAndCss.png">
+                <p>HTML &amp; CSS</p>
+            </div>
+            <div class="contents-item">
+                <img src="https://codekit.co/editor/v3/codekit/courses/basic-html-css/4-contents-forms/project/php.png">
+                <p>PHP</p>
+            </div>
+            <div class="contents-item">
+                <img src="https://codekit.co/editor/v3/codekit/courses/basic-html-css/4-contents-forms/project/ruby.png">
+                <p>Ruby</p>
+            </div>
+            <div class="contents-item">
+                <img src="https://codekit.co/editor/v3/codekit/courses/basic-html-css/4-contents-forms/project/swift.png">
+                <p>Swift</p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-logo">Codekit</div>
+        <div class="footer-list">
+            <ul>
+                <li>About</li>
+                <li>Jobs</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
+
+---------
+
+body {
+    font-family: "Avenir Next";
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: #26d0c9;
+    color: #fff;
+    height: 90px;
+}
+
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+}
+
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+}
+
+.main {
+    padding: 100px 80px;
+}
+
+.copy-container h1 {
+    font-size: 140px;
+}
+
+.copy-container h2 {
+    font-size: 60px;
+}
+
+.copy-container span {
+    color: #ff4a4a;
+}
+
+.contents {
+    height: 500px;
+    /* 1. กำหนด margin-top เป็น 100px */
+    margin-top: 100px;
+
+}
+
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    /* 2.1. กำหนด font-size เป็น 28px */
+    font-size: 28px;
+
+    /* 2.2. กำหนด padding-bottom เป็น 15px */
+    
+padding-bottom: 15px;
+    /* 2.3. กำหนด margin-bottom เป็น 50px */
+    
+margin-bottom: 50px;
+}
+
+.contents-item {
+    float: left;
+    /* 3. กำหนด margin-right เป็น 40px */
+    margin-right: 40px;
+
+}
+
+/* 4. กำหนด font-size และ margin-top ของ <p> ใน contents-item */
+
+p {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 32px;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+}
