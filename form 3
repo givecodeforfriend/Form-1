@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Codekit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-logo">Codekit</div>
+        <div class="header-list">
+            <ul>
+                <li>About</li>
+                <li>Lessons</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="copy-container">
+            <h1>HELLO WORLD<span>.</span></h1>
+            <h2>Let's learn to code</h2>
+        </div>
+
+        <div class="contents">
+            <!-- 1. เพิ่ม <h3> -->
+            <h3 class="section-title">
+                Lessons
+            </h3>
+
+            <!-- 2., 3.1., 4.1. เพิ่ม <div> พร้อมกับ "contents-item" class -->
+            <div class="contents-item">
+                <img src=https://codekit.co/editor/v3/codekit/courses/basic-html-css/4-contents-forms/project/htmlAndCss.png>
+                <p>
+                    HTML and CSS
+                </p>
+            </div>
+
+            <!-- 2., 3.2., 4.2. เพิ่ม <div> พร้อมกับ "contents-item" class -->
+            <div class="contents-item">
+                <img src=https://codekit.co/editor/v3/codekit/courses/basic-html-css/4-contents-forms/project/php.png>
+                <p>
+                    PHP
+                </p>
+            </div>
+
+            <!-- 2., 3.3., 4.3. เพิ่ม <div> พร้อมกับ "contents-item" class -->
+            <div class="contents-item">
+                <img src=https://codekit.co/editor/v3/codekit/courses/basic-html-css/4-contents-forms/project/ruby.png>
+                <p>
+                    Ruby
+                </p>
+                    
+                    
+            </div>
+
+            <!-- 2., 3.4., 4.4. เพิ่ม <div> พร้อมกับ "contents-item" class -->
+            <div class="contents-item">
+                <img src=https://codekit.co/editor/v3/codekit/courses/basic-html-css/4-contents-forms/project/swift.png>
+                <p>
+                    Swift
+                </p>
+            </div>
+
+        </div>
+
+        <div class="contact-form">
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-logo">Codekit</div>
+        <div class="footer-list">
+            <ul>
+                <li>About</li>
+                <li>Jobs</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
+
+---------
+
+body {
+    font-family: "Avenir Next";
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: #26d0c9;
+    color: #fff;
+    height: 90px;
+}
+
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+}
+
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+}
+
+.main {
+    padding: 100px 80px;
+}
+
+.copy-container h1 {
+    font-size: 140px;
+}
+
+.copy-container h2 {
+    font-size: 60px;
+}
+
+.copy-container span {
+    color: #ff4a4a;
+}
+
+/* 2. กำหนด border-bottom ของ section-title */
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+}
+
+/* 3. กำหนด height ของ contents เป็น 500px */
+.contents {
+    height: 500px;
+}
+
+
+.contents-item {
+    float: left;
+}
+
+.footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 32px;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+}
